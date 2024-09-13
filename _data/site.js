@@ -1,20 +1,20 @@
 module.exports = {
   meta: {
-    title: "My Purple Blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "DH Co-Op",
+    description: "Centering multilingual DH at Stanford",
     lang: "en",
-    siteUrl: "https://example.com/",
+    siteUrl: "https://dhcoop.stanford.edu/",
   },
   feed: { // used in feed.xml.njk
-    subtitle: "Lorem ipsum dolor sit amet consecuteor",
+    subtitle: "Centering multilingual DH at Stanford",
     filename: "atom.xml",
     path: "/atom.xml",
-    id: "https://example.com/",
-    authorName: "John Doe",
-    authorEmail: "johndoe@example.com"
+    id: "https://dhcoop.stanford.edu/",
+    authorName: "Quinn Dombrowski",
+    authorEmail: "qad@stanford.edu"
   },
   hero: { // used in hero section of main page ie. index.html.njk
-    title: "Welcome to my purple blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse."
+    title: "Digital Humanities Co-Op",
+    description: "Centering multilingual DH at Stanford"
   }
 }
