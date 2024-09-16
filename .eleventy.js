@@ -20,7 +20,7 @@ module.exports = (config) => {
   });
 
       //Copy CNAME
-      eleventyConfig.addPassthroughCopy("CNAME");
+      config.addPassthroughCopy("CNAME");
 
   config.addCollection("tagList", collection => {
     const tagsObject = {}
