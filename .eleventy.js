@@ -19,6 +19,9 @@ module.exports = (config) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL, yyyy");
   });
 
+      //Copy CNAME
+      eleventyConfig.addPassthroughCopy("CNAME");
+
   config.addCollection("tagList", collection => {
     const tagsObject = {}
     collection.getAll().forEach(item => {
